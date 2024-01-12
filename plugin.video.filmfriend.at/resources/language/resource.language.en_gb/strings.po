@@ -1,6 +1,6 @@
 # KODI Media Center language file
 # Addon Name: filmfriend
-# Addon id: script.module.filmfriend.de
+# Addon id: script.module.filmfriend.at
 # Addon version: 1.0.2
 # Addon Provider: Ingo-FP-Angel, sarbes
 msgid ""
@@ -9,19 +9,19 @@ msgstr ""
 
 msgctxt "#30000"
 msgid "General"
-msgstr "Allgemein"
+msgstr "General"
 
 msgctxt "#30001"
 msgid "Expert Info"
-msgstr "Debug Infos"
+msgstr "Expert Info"
 
 msgctxt "#30010"
 msgid "Library"
-msgstr "Bibliothek"
+msgstr "Library"
 
 msgctxt "#30011"
 msgid "Select library"
-msgstr "Wähle Bibliothek"
+msgstr "Select library"
 
 msgctxt "#30012"
 msgid "Login"
@@ -29,27 +29,27 @@ msgstr "Login"
 
 msgctxt "#30020"
 msgid "Language"
-msgstr "Sprache"
+msgstr "Language"
 
 msgctxt "#30021"
 msgid "System (if available)"
-msgstr "System (wenn verfügbar)"
+msgstr "System (if available)"
 
 msgctxt "#30022"
 msgid "English"
-msgstr "Englisch"
+msgstr "English"
 
 msgctxt "#30023"
 msgid "German"
-msgstr "Deutsch"
+msgstr "German"
 
 msgctxt "#30024"
 msgid "French"
-msgstr "Französisch"
+msgstr "French"
 
 msgctxt "#30025"
 msgid "Italian"
-msgstr "Italienisch"
+msgstr "Italian"
 
 msgctxt "#30050"
 msgid "Domain"
@@ -69,67 +69,67 @@ msgstr "Refresh Token"
 
 msgctxt "#30500"
 msgid "Username"
-msgstr "Nutzername"
+msgstr "Username"
 
 msgctxt "#30501"
 msgid "Username is empty"
-msgstr "Nutzername ist leer"
+msgstr "Username is empty"
 
 msgctxt "#30502"
 msgid "The username field can't be empty"
-msgstr "Der Nutzername muss gesetzt sein"
+msgstr "The username field can't be empty"
 
 msgctxt "#30503"
 msgid "Password"
-msgstr "Passwort"
+msgstr "Password"
 
 msgctxt "#30504"
 msgid "Password is empty"
-msgstr "Passwort ist leer"
+msgstr "Password is empty"
 
 msgctxt "#30505"
 msgid "The password field can't be empty"
-msgstr "Das Passwort muss gesetzt sein"
+msgstr "The password field can't be empty"
 
 msgctxt "#30506"
 msgid "Error"
-msgstr "Fehler"
+msgstr "Error"
 
 msgctxt "#30507"
 msgid "An error occured during the login process"
-msgstr "Beim Login ist ein Fehler aufgetreten"
+msgstr "An error occured during the login process"
 
 msgctxt "#30508"
 msgid "Login credentials wrong"
-msgstr "Nutzereingaben sind falsch"
+msgstr "Login credentials wrong"
 
 msgctxt "#30509"
 msgid "Login expired"
-msgstr "Login abgelaufen, bitte neu anmelden"
+msgstr "Login expired, please login again"
 
 msgctxt "#30510"
 msgid "Login not possible"
-msgstr "Login nicht möglich"
+msgstr "Login not possible"
 
 msgctxt "#30511"
 msgid "Login provider not supported"
-msgstr "Die ausgewählte Bibliothek nutzt ein Login-Verfahren, das noch nicht unterstützt wird."
+msgstr "The selected library used a login procedure that is not yet supported."
 
 msgctxt "#30512"
 msgid "Login required"
-msgstr "Login benötigt"
+msgstr "Login required"
 
 msgctxt "#30513"
 msgid "Please login first"
-msgstr "Bitte zunächst anmelden"
+msgstr "Please login first"
 
 msgctxt "#30600"
 msgid "Shows"
-msgstr "Serien"
+msgstr "Shows"
 
 msgctxt "#30601"
 msgid "Movies"
-msgstr "Filme"
+msgstr "Movies"
 
 msgctxt "#30602"
 msgid "Watchlist"
@@ -137,28 +137,28 @@ msgstr "Watchlist"
 
 msgctxt "#30603"
 msgid "unavailable"
-msgstr "Nicht verfügbar"
+msgstr "Not available"
 
 msgctxt "#30604"
 msgid "Video unavailable"
-msgstr "Das Video ist nicht (mehr) verfügbar"
+msgstr "The video is not available (anymore)"
 
 ### translations below are imported from "script.module.libmediathek4" that's currently broken
 msgctxt "#32000"
 msgid "This month"
-msgstr "Dieser Monat"
+msgstr "This month"
 
 msgctxt "#32001"
 msgid "January"
-msgstr "Januar"
+msgstr "January"
 
 msgctxt "#32002"
 msgid "February"
-msgstr "Februar"
+msgstr "February"
 
 msgctxt "#32003"
 msgid "March"
-msgstr "März"
+msgstr "March"
 
 msgctxt "#32004"
 msgid "April"
@@ -166,15 +166,15 @@ msgstr "April"
 
 msgctxt "#32005"
 msgid "May"
-msgstr "Mai"
+msgstr "May"
 
 msgctxt "#32006"
 msgid "June"
-msgstr "Juni"
+msgstr "June"
 
 msgctxt "#32007"
 msgid "July"
-msgstr "Juli"
+msgstr "July"
 
 msgctxt "#32008"
 msgid "August"
@@ -186,7 +186,7 @@ msgstr "September"
 
 msgctxt "#32010"
 msgid "October"
-msgstr "Oktober"
+msgstr "October"
 
 msgctxt "#32011"
 msgid "November"
@@ -194,107 +194,107 @@ msgstr "November"
 
 msgctxt "#32012"
 msgid "December"
-msgstr "Dezember"
+msgstr "December"
 
 msgctxt "#32013"
 msgid "Sunday"
-msgstr "Sonntag"
+msgstr "Sunday"
 
 msgctxt "#32014"
 msgid "Monday"
-msgstr "Montag"
+msgstr "Monday"
 
 msgctxt "#32015"
 msgid "Tuesday"
-msgstr "Dienstag"
+msgstr "Tuesday"
 
 msgctxt "#32016"
 msgid "Wednesday"
-msgstr "Mittwoch"
+msgstr "Wednesday"
 
 msgctxt "#32017"
 msgid "Thursday"
-msgstr "Donnerstag"
+msgstr "Thursday"
 
 msgctxt "#32018"
 msgid "Friday"
-msgstr "Freitag"
+msgstr "Friday"
 
 msgctxt "#32019"
 msgid "Saturday"
-msgstr "Samstag"
+msgstr "Saturday"
 
 msgctxt "#32020"
 msgid "Today"
-msgstr "Heute"
+msgstr "Today"
 
 msgctxt "#32021"
 msgid "Yesterday"
-msgstr "Gestern"
+msgstr "Yesterday"
 
 msgctxt "#32022"
 msgid "Choose date"
-msgstr "Datum aussuchen"
+msgstr "Choose date"
 
 msgctxt "#32030"
 msgid "New"
-msgstr "Neu"
+msgstr "New"
 
 msgctxt "#32031"
 msgid "Most viewed"
-msgstr "Meistgesehen"
+msgstr "Most viewed"
 
 msgctxt "#32032"
 msgid "Most recent"
-msgstr "Neuste Beiträge"
+msgstr "Most recent"
 
 msgctxt "#32033"
 msgid "Last Chance"
-msgstr "Letzte Chance"
+msgstr "Last Chance"
 
 msgctxt "#32132"
 msgid "Shows by A-Z"
-msgstr "Sendungen nach A-Z"
+msgstr "Shows by A-Z"
 
 msgctxt "#32133"
 msgid "Shows by date"
-msgstr "Sendungen nach Datum"
+msgstr "Shows by date"
 
 msgctxt "#32134"
 msgid "Rubrics"
-msgstr "Rubriken"
+msgstr "Rubrics"
 
 msgctxt "#32135"
 msgid "Topics"
-msgstr "Themen"
+msgstr "Topics"
 
 msgctxt "#32136"
 msgid "Selected Shows"
-msgstr "Ausgewählte Sendungen"
+msgstr "Selected Shows"
 
 msgctxt "#32137"
 msgid "Collections"
-msgstr "Sammlungen"
+msgstr "Collections"
 
 msgctxt "#32138"
 msgid "Most played"
-msgstr "Meistgehört"
+msgstr "Most played"
 
 msgctxt "#32139"
 msgid "Search"
-msgstr "Suche"
+msgstr "Search"
 
 msgctxt "#32140"
 msgid "More Entries"
-msgstr "Weitere Beiträge"
+msgstr "More Entries"
 
 msgctxt "#32141"
 msgid "Archive"
-msgstr "Archiv"
+msgstr "Archive"
 
 msgctxt "#32142"
 msgid "Detailed search"
-msgstr "Detailsuche"
+msgstr "Detailed search"
 
 msgctxt "#32143"
 msgid "Live"
@@ -302,11 +302,11 @@ msgstr "Live"
 
 msgctxt "#32144"
 msgid "Selected Movies"
-msgstr "Ausgewählte Filme"
+msgstr "Selected Movies"
 
 msgctxt "#32145"
 msgid "Channel Overview"
-msgstr "Kanalüberblick"
+msgstr "Channel Overview"
 
 msgctxt "#32146"
 msgid "Videos"

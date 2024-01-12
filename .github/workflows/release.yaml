@@ -18,11 +18,11 @@ jobs:
       - name: get version from addon.xml
         id: version
         run: |
-          version=$(grep "<addon" plugin.video.filmfriend.de/addon.xml | cut -d '"' -f 6)
+          version=$(grep "<addon" plugin.video.filmfriend.at/addon.xml | cut -d '"' -f 6)
           echo "VERSION=$version" >> "$GITHUB_OUTPUT"
 
       - name: create addon ZIP
-        run: zip -D -r plugin.video.filmfriend.de-${{ steps.version.outputs.VERSION }}.zip plugin.video.filmfriend.de
+        run: zip -D -r plugin.video.filmfriend.at-${{ steps.version.outputs.VERSION }}.zip plugin.video.filmfriend.at
 
       - name: get changes in version
         id: changelog
@@ -32,7 +32,7 @@ jobs:
         uses: ncipollo/release-action@v1
         id: create_release
         with:
-          artifacts: plugin.video.filmfriend.de-${{ steps.version.outputs.VERSION }}.zip
+          artifacts: plugin.video.filmfriend.at-${{ steps.version.outputs.VERSION }}.zip
           tag: ${{ steps.version.outputs.VERSION }}
           commit: ${{ github.sha }}
           bodyFile: release_message.txt
@@ -41,4 +41,4 @@ jobs:
         env:
           USERNAME: ${{ secrets.KODINERDS_USER }}
           PASSWORD: ${{ secrets.KODINERDS_PASSWORD }}
-        run: curl -v -H "Content-Type: multipart/form-data" -F upload_info=plugin.video.filmfriend.de-${{ steps.version.outputs.VERSION }}.zip -F upload=@plugin.video.filmfriend.de-${{ steps.version.outputs.VERSION }}.zip -X POST -u "${USERNAME}:${PASSWORD}" https://repo.kodinerds.net/index.php
+        run: curl -v -H "Content-Type: multipart/form-data" -F upload_info=plugin.video.filmfriend.at-${{ steps.version.outputs.VERSION }}.zip -F upload=@plugin.video.filmfriend.at-${{ steps.version.outputs.VERSION }}.zip -X POST -u "${USERNAME}:${PASSWORD}" https://repo.kodinerds.net/index.php

@@ -1,6 +1,6 @@
-# plugin.video.filmfriend.de
+# plugin.video.filmfriend.at
 
-A plugin for KODI to play shows and movies from https://filmfriend.de
+A plugin for KODI to play shows and movies from https://filmfriend.at
 
 You need an account with a public library in order to access this service.
 

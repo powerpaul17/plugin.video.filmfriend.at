@@ -103,7 +103,7 @@ def parseWatchList(params,content='videos'):
 	return parseResponse(j,content)
 
 def parseSearch(params,content='videos'):
-	j = fetchJson(f'{base}/tenant-groups/fba2f8b5-6a3a-4da3-b555-21613a88d3ef/search{params}')
+	j = fetchJson(f'{base}/tenant-groups/8bd3757f-bb3f-4ffe-9543-3424497ef47d/search{params}')
 	return parseResponse(j,content)
 
 def parseResponse(responseJson,content='videos'):
@@ -251,7 +251,7 @@ def _checkTokenExpired():
 			isExpired = True
 	except jwt.exceptions.ExpiredSignatureError:
 		isExpired = True
-	
+
 	if isExpired:
 		lm4utils.log(f"[{__addon__}] Access token expired. Will fetch new token.")
 		_getNewToken()

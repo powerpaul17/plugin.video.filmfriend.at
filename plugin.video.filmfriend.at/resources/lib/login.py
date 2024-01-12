@@ -11,11 +11,11 @@ base = 'https://api.tenant-group.frontend.vod.filmwerte.de/v7/'
 providerBase = 'https://api.tenant.frontend.vod.filmwerte.de/v11/'
 
 def pick():
-	j = requests.get(f'{base}fba2f8b5-6a3a-4da3-b555-21613a88d3ef/sign-in').json()
+	j = requests.get(f'{base}8bd3757f-bb3f-4ffe-9543-3424497ef47d/sign-in').json()
 	l = []
 	for item in j['tenants']:
 		l.append(xbmcgui.ListItem(f'{item["displayCategory"]} - {item["displayName"]}'))
-	i = xbmcgui.Dialog().select(lm4utils.getTranslation(30010), l) 
+	i = xbmcgui.Dialog().select(lm4utils.getTranslation(30010), l)
 
 	domain = j['tenants'][int(i)]['clients']['web']['domain']
 	tenant = j['tenants'][int(i)]['id']
@@ -62,4 +62,3 @@ def pick():
 	lm4utils.setSetting('username', username)
 	lm4utils.setSetting('access_token', j['access_token'])
 	lm4utils.setSetting('refresh_token', j['refresh_token'])
-	
