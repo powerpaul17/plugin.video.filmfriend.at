@@ -37,8 +37,8 @@ jobs:
           commit: ${{ github.sha }}
           bodyFile: release_message.txt
 
-      - name: publish to kodinerds
-        env:
-          USERNAME: ${{ secrets.KODINERDS_USER }}
-          PASSWORD: ${{ secrets.KODINERDS_PASSWORD }}
-        run: curl -v -H "Content-Type: multipart/form-data" -F upload_info=plugin.video.filmfriend.at-${{ steps.version.outputs.VERSION }}.zip -F upload=@plugin.video.filmfriend.at-${{ steps.version.outputs.VERSION }}.zip -X POST -u "${USERNAME}:${PASSWORD}" https://repo.kodinerds.net/index.php
+      # - name: publish to kodinerds
+      #   env:
+      #     USERNAME: ${{ secrets.KODINERDS_USER }}
+      #     PASSWORD: ${{ secrets.KODINERDS_PASSWORD }}
+      #   run: curl -v -H "Content-Type: multipart/form-data" -F upload_info=plugin.video.filmfriend.at-${{ steps.version.outputs.VERSION }}.zip -F upload=@plugin.video.filmfriend.at-${{ steps.version.outputs.VERSION }}.zip -X POST -u "${USERNAME}:${PASSWORD}" https://repo.kodinerds.net/index.php
